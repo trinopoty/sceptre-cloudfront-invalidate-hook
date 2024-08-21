@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+
+[project]
+name = "sceptre-cloudfront-invalidation-hook"
+version = "0.1"
+authors = [
+  { name="Trinopoty Biswas", email="trinopoty@outlook.com" },
+]
+description = "A hook for triggering CloudFront invalidation."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/trinopoty/sceptre-cloudfront-invalidation-hook"
+Issues = "https://github.com/trinopoty/sceptre-cloudfront-invalidation-hook/issues"
